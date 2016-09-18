@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.csdn.lhy.encryption.MainActivity">
+
+    <Button
+        android:id="@+id/btn_encode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Base64 encode" />
+
+    <Button
+        android:id="@+id/btn_decode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Base64 decode" />
+
+    <EditText
+        android:textSize="24sp"
+        android:background="@android:drawable/edit_text"
+        android:id="@+id/et_Msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_base64"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
